@@ -1,0 +1,26 @@
+START
+[2026-03-05T17:22:08.429Z] ERROR: Request failed with code 401
+[2026-03-05T17:22:08.430Z] Stack: Error: Request failed with code 401
+    at RequestHandlerHelper.createResponseError (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:104:16)
+    at RequestHandlerHelper.onResponseEndHandler (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:269:25)
+    at IncomingMessage.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2026-03-05T17:22:08.430Z] FATAL ERROR during tweet posting: Request failed with code 401
+[2026-03-05T17:22:27.370Z] FATAL: Request failed with code 401
+[2026-03-05T17:22:29.028Z] ERROR: Request failed with code 401
+[2026-03-05T17:22:29.029Z] Stack: Error: Request failed with code 401
+    at RequestHandlerHelper.createResponseError (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:104:16)
+    at RequestHandlerHelper.onResponseEndHandler (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:269:25)
+    at IncomingMessage.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2026-03-05T17:22:29.030Z] FATAL ERROR during tweet posting: Request failed with code 401
+[2026-03-05T17:22:46.038Z] FATAL ERROR during tweet posting process: Request failed with code 401
+[2026-03-05T17:22:46.040Z] Stack: Error: Request failed with code 401
+    at RequestHandlerHelper.createResponseError (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:104:16)
+    at RequestHandlerHelper.onResponseEndHandler (/Users/matthew/.openclaw/ClawEmpire/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-handler.helper.js:269:25)
+    at IncomingMessage.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2026-03-05T17:22:46.041Z] UNCAUGHT FATAL ERROR: Request failed with code 401

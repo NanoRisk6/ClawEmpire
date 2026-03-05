@@ -1,0 +1,5 @@
+[$(date)] Dry-run scan: $(find ~/Downloads \( -name "*.mp4" -o -name "*.mov" \) -type f -mmin -360 -printf "%C@ %p %s
+" 2>/dev/null || echo "No new files")
+Dry-run: No new .mp4/.mov in ~/Downloads (last 6h)
+Dry-run: No new .mp4/.mov in ~/Downloads (last 6h)
+Dry-run: No new .mp4/.mov in ~/Downloads (last 6h)

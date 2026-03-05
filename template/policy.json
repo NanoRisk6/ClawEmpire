@@ -1,0 +1,8 @@
+{
+  "replication_rules": {
+    "min_7_day_profit": 20.00,
+    "min_cash_buffer": 50.00,
+    "requires_human_approval": true
+  },
+  "allowed_actions": ["read", "write", "post_social", "log_ledger"]
+}

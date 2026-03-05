@@ -1,0 +1,8 @@
+instance_name: "Claw-Template"
+mission: "Generate content -> Drive traffic -> Replicate"
+tasks:
+  - generate_content
+  - post_social
+  - log_ledger
+budget:
+  weekly_max_usd: 5.00
