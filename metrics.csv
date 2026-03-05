@@ -16,3 +16,4 @@
 2026-03-05,0,1,0,0,0,50,0,0,0,"Unit#9 APPROVED: Threshold 0.25 + min 2s duration; watcher reloaded; test drop ignites clips v2"
 2026-03-05,0,1,0,0,0,55,0,0,0,"Manual clips from sample.mov: 4x15s MP4s ready in clips/sample/; MOV->MP4 confirmed; flywheel test primed"
 2026-03-05,0,1,0,0,0,60,0,0,0,\"Tier3 X POST LIVE: Keys stored (600); test post v1 jsonl → daily_tweet.log; monitor engagement\"
+"2026-03-05",0,1,0,0,0,65,1,0,1,"Flywheel tick: feedback v2 generated (patterns: insane,building this,next level); nano mock skipped (API key); no post.js; signals log static; attention updated"
