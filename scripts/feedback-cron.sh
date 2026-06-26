@@ -36,10 +36,11 @@ fetch_data >> ~/ClawEmpire/state/attention.jsonl
 PATTERNS=$(jq -r '.top_phrases[]' ~/ClawEmpire/state/attention.jsonl | sort | uniq -c | sort -nr | head -n 3 | awk '{print $2, $3}' | tr '\n' ',' | sed 's/,$//')
 
 TIMESTAMP=$(date +%s)
-V2_FILE="~/ClawEmpire/threads/v2-$TIMESTAMP.jsonl"
+V2_FILE="$HOME/ClawEmpire/threads/v2-$TIMESTAMP.jsonl"
 
-cat << PROMPT > $(eval echo $V2_FILE)
-{"prompt_version": "v2", "timestamp": "$TIMESTAMP", "instructions": "Generate threads focusing on these high-attention patterns: $PATTERNS", "status": "pending"}
+cat << PROMPT > "$V2_FILE"
+{"prompt_version": "v2", "timestamp": "$TIMESTAMP", "instructions": "Generate threads focusing on these high-attention patterns: $PATTERNS. Use local empire flywheel voice. Reference robot civ, laptop sovereign, ffmpeg clips.", "status": "pending"}
 PROMPT
 
 echo "Feedback loop completed successfully at $(date)"
+# Note: actual thread text gen happens downstream (Grok / agent consuming pending). Clips via empire-clip.sh.
